@@ -1,44 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<header>
-    <h1>Project Explorer</h1>
-    <h2>One stop Database for Academic Projects</h2>
-</header>
-<body>
-<nav>
-    <a href="index.html">Home</a>
-    <a href="search.html">Projects</a>
-    <a href="login.html">Login</a>
-    <a href="register.html">Register</a>
-    <a href="createproject.html">Submit</a>
-</nav>
-<main>
-    <h1>Search Project By</h1>
-    <form name="searchForm">
-        <input type="text" placeholder="Project Name,Authors,Abstract,Tags"/><br><br>
-       <div>Search By:<br><select name="searchType"></div><br><br>
-            <option value="Name">Name</option>
-            <option value="Abstract">Abstract</option>
-            <option value="Authors">Authors</option>
-            <option value="Tags">Tags</option>
-        </select><br><br>
-        <input type="submit"value="Search"/>
-    <section>
-        <h1>Search Result</h1>
-        
-            <h2>Project 1</h2>
-            <ul>
-                <li>Name:Project 1</li>
-                <li>Description:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A erat nam at lectus urna duis convallis convallis tellus.</li>
-                <li>Program:Computer Science</li>
-                <li>Authors:JohnDoe, Jane Doe</li>
-                <li>Tags:#Asphyxia, #GSW</li>
-                <li>Year:2021</li>
-            </ul>
-    </section>
-    </form>
+    <header>
+         <H1>Project Explorer</H1>
+         <H2>One Stop Database for Academic Projects</H2>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="search.html">Projects</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="createproject.html">Submit</a>
+        </nav>
+        <main> 
+            <section>
+                <h2>Search Project By</h2>
+                <form name="searchForm">
+                    <div><input type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags"></div><br>
+                    <label>  Search By: </label>
+                        <Select name="searchType"> <label for="searchBy">Search By</label>
+                        <option value="Name">Name</option>
+                        <option value="Abstract">Abstract</option>
+                        <option value="Authors">Authors</option>
+                        <option value="Tags">Tags</option>
+                    </Select><br><br>
+                    <div><input type="submit" value="Search"></div>
+                </form> 
+            </section>
 
-      
-</main>
-</body>
-</html>
+            <section> 
+                <h2>Search Result</h2>
+
+                <h3>Project 1</h3>
+                <div>
+                <ul>
+                    <li> Name: Project 1</li>
+                    <li> Description: This is the beginning of my web development path</li>
+                    <li> Program: Computer Science</li>
+                    <li> Authors: John Doe, Jane Doe</li>
+                    <li> Tags: #OneMen</li>
+                    <li> Year: 2019</li>
+                </ul>
+            </div>
+            </section>
+        </main>
+</html> 
