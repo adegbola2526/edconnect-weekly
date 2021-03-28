@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css" />
+      </head>
+      
+      <body>
+        <div class="container-fluid pt-3 pb-5">
+          <nav class="navbar navbar-expand navbar-dark bg-primary">
+            <a href="index.html" class="navbar-brand">Project Explorer</a>
+            <form name="searchForm" action="search.html" method="GET" class="form-inline">
+              <input type="text" name="search" class="mr-sm-2 form-control" placeholder="Search Projects">
+              <button type="submit" class="btn btn-outline-light">Search</button>
+            </form>
+            <div class="mr-auto navbar-nav">
+              <a href="createproject.html" class="nav-link">Submit</a>
+            </div>
+            <div class="navbar-nav">
+              <a href="register.html" class="nav-link">Sign up</a>
+              <a href="login.html" class="nav-link">Login</a>
+            </div>
+          </nav>
+        <div class="container mt-5">
+            <h3> Project 1</h3>
+            <div class="container">
+                <div class="p-3 mt-3 mb-5 bg-light text-dark row">
+                    <div class="col">
+                        Created By:<br>ONEMEN</li>
+                    </div>
+                    <div class="col">
+                        Date Created<br>28/03/2021</li>
+                    </div>
+                    <div class="col">
+                        Last Updated <br>29/03/2021</li>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex justify-content-end">
+                            <a href="editproject.html" class="btn btn-primary btn-lg">Edit Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <h5>Project Abstract </h5>
+                    <hr>
+                    
+                       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur repellendus tempora,
+                        tenetur eveniet accusamus quo deserunt eaque a accusantium repudiandae.
+                        Rerum voluptatibus placeat, laboriosam totam reprehenderit quod nihil assumenda itaque.</p><br>
+
+                        
+                        <label for="comments" class="form-label" font-weight-bold"> Comments</label>
+                        <textarea name="comments" id="" class="form-control" placeholder="Leave a comment" cols="20"
+                            row="4"></textarea>
+                        <br>
+                        <button class="btn btn-primary">Submit</button>
+                    <hr>
+                    <style>
+                        .center {
+                            text-align: center;
+                        }
+                    </style>
+                    <div class="center">
+                        <p> No comments added yet</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h5>Project details </h5>
+                    <hr>
+
+                    <div class="card">
+                        <div class="card-header">
+                            Author(s)
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Adegbola Abiola</li>
+                        </ul>
+                        <div class="card-footer text-primary">#web</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            Project Files
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center"> No files uploaded yet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <footer class="bg-light text-right m-5 p-2"> Project Explorer &#169 2021 <a
+                href="http://edconnect.ng">.Edconnect</a>
+        </footer>
+    </div>
+</body>
+
+</html>
